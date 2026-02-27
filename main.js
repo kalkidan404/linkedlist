@@ -1,5 +1,6 @@
-// example uses class syntax - adjust as necessary
-import { linkedlist } from "./link";
+import { linkedlist } from "./link.js";
+
+
 const list = linkedlist();
 
 list.append("dog");
@@ -8,3 +9,4 @@ list.append("parrot");
 list.append("hamster");
 list.append("snake");
 list.append("turtle");
+console.log(list.toString());
